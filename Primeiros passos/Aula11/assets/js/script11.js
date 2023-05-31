@@ -17,3 +17,4 @@ if (adulto) {
 } else {
     console.log("Não é adulto")
 }
+
