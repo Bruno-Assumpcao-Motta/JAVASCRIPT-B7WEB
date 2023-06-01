@@ -16,7 +16,5 @@ if (adulto) {
     console.log("É adulto");
 } else {
     console.log("Não é adulto")
-} else if (idade >= 61){
-    console.log("Você é idoso")
-}
+} 
 
