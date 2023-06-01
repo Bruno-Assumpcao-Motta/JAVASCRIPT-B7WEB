@@ -9,13 +9,13 @@ console.log(x > y);
 
 let w = "10";
 let z = 10;
-console.log(w > z);
+console.log(w === z);
 
 /* Substitua o @ pela condicional correta para que o resultado seja TRUE*/
 
 let a = 10;
 let b = 5;
-console.log(a > b);
+console.log(a != b);
 
 /* Crie uma condicional para verificar se o preço da carne está barato ou caro.  PS: Até 45 está barato.*/
 
