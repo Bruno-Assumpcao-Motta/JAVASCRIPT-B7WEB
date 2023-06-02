@@ -1,4 +1,6 @@
-let profession = "fiscal"
+let profession = "editor"
+
+console.log("Profissão: " + profession);
 
 switch(profession){
     case 'fiscal':
@@ -9,5 +11,8 @@ switch(profession){
         break;
     case 'policial':
         console.log('Sua camisa será AZUL')
+        break;
+    default:
+        console.log('Sua camisa será PRETA')
         break;
 }
