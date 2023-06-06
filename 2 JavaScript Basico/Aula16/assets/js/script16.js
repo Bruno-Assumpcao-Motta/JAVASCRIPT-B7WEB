@@ -6,13 +6,13 @@ function somar(n1, n2) {
 somar(15, 30)
 
 function nomeCompleto(nome, sobrenome){
-    console.log(`${nome} ${sobrenome}`);
+    return (`${nome} ${sobrenome}`);
 }
-nomeCompleto("Bruno", "Motta")
+let completo = nomeCompleto("Bruno", "Motta")
 
-function dataNascimento(dia, mes, ano) {
-    console.log('Nasci em:')
-    console.log(`${dia} ${mes} ${ano}`); 
-    
-}
-dataNascimento(02,10,1975)
+console.log('Nome completo: ' + completo);
+
+
+
+
+
