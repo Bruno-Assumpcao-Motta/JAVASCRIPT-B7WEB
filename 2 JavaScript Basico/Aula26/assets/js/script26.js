@@ -3,11 +3,18 @@ let ingredientes = [
     'farinha',
     'ovos',
     'açucar',
-    'agua'
+    'manteiga'
 ]
 
-ingredientes[5] = 'chocolate'
+ingredientes.push('chocolate');
 
-console.log(ingredientes)
+console.log(ingredientes);
 
-console.log(`Total de ingredientes: ${ingredientes.length}`)
+console.log(`Total de ingredientes: ${ingredientes.length}`);
+
+/* shift = remove o primeiro
+ingredientes.shift();
+
+pop = remove o último
+ingredientes.pop();
+*/
