@@ -14,6 +14,6 @@ carros.push('Volvo');
 console.log('3. Lista com Volvo:');
 console.log(carros);
 
-// 4.Exista quantos itens tem no array
+// 4.Exiba quantos itens tem no array
 console.log('4. itens no array: ');
-console.log(carros.length)
+console.log(carros.length);
