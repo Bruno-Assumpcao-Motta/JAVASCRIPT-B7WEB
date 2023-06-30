@@ -1,6 +1,12 @@
-let cores = ['preto', 'branco', 'azul', 'cinza', 'vermelho'];
+let cores = [
+    {nome: 'preto', qt: 20},
+    {nome: 'branco', qt: 30},
+    {nome: 'azul', qt: 15},
+    {nome: 'cinza', qt: 10},
+    {nome: 'vermelho', qt: 5}
+];
 
-cores.push('amarelo');
+
 
 /*
 for (let n = 0; n < cores.length; n++) {
@@ -14,5 +20,6 @@ for (let i in cores) {
 */
 
 for (let cor of cores) {
-    console.log(cor);
+    cor.nome = cor.nome.toUpperCase()
+    console.log(`nome: ${cor.nome} - qt: ${cor.qt}`);
 }
